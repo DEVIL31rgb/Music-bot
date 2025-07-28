@@ -1,0 +1,14 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "distube": "^4.3.0",
+    "@distube/yt-dlp": "^1.0.0"
+  }
+}
