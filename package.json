@@ -1,5 +1,5 @@
 {
-  "name": "discord-music-bot",
+  "name": "discord-bot",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -9,6 +9,14 @@
   "dependencies": {
     "discord.js": "^14.13.0",
     "distube": "^4.3.0",
-    "@distube/yt-dlp": "^1.0.0"
+    "@distube/yt-dlp": "^1.1.3"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "overrides": {
+    "@distube/yt-dlp": {
+      "distube": "^4.3.0"
+    }
   }
 }
